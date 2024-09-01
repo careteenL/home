@@ -1,11 +1,21 @@
 # 构建应用
-FROM node
-WORKDIR /app
-COPY dist ./dist
-RUN npm install -g http-server
+FROM nginx:stable as production-stage
+
+COPY dist/ /usr/share/nginx/html
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 12445
-CMD ["http-server", "dist", "-p", "12445"]
+
+CMD ["nginx", "-g", "daemon off;"]
+
+# FROM node
+# WORKDIR /app
+# COPY dist ./dist
+# RUN npm install -g http-server
+
+# EXPOSE 12445
+# CMD ["http-server", "dist", "-p", "12445"]
 
 # !!服务器配置低，则简单处理!!
 
