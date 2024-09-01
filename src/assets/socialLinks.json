@@ -2,37 +2,43 @@
   {
     "name": "Github",
     "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
+    "tip": "Github",
+    "url": "https://github.com/careteenL"
   },
   {
-    "name": "BiliBili",
-    "icon": "/images/icon/bilibili.png",
-    "tip": "(゜-゜)つロ 干杯 ~",
-    "url": "https://space.bilibili.com/98544142"
+    "name": "WeChat",
+    "icon": "/images/icon/weixin.svg",
+    "tip": "微信",
+    "url": "http://blog.careteen.cn/wechart-qrcode.jpeg"
   },
   {
-    "name": "QQ",
-    "icon": "/images/icon/qq.png",
-    "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=1539250352"
+    "name": "Twitter",
+    "icon": "/images/icon/twitter.png",
+    "tip": "Twitter",
+    "url": "https://x.com/careteenL"
+  },
+  {
+    "name": "Telegram",
+    "icon": "/images/icon/telegram.png",
+    "tip": "Telegram",
+    "url": "https://t.me/careteentalk"
+  },
+  {
+    "name": "知乎",
+    "icon": "/images/icon/zhihu.svg",
+    "tip": "知乎",
+    "url": "https://www.zhihu.com/people/careteen"
+  },
+  {
+    "name": "微博",
+    "icon": "/images/icon/weibo.svg",
+    "tip": "微博",
+    "url": "https://weibo.com/u/3962739062"
   },
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
     "tip": "来封 Email ~",
-    "url": "mailto:one@imsyy.top"
-  },
-  {
-    "name": "Twitter",
-    "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
-  },
-  {
-    "name": "Telegram",
-    "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "url": "mailto:careteenfox@gmail.com"
   }
 ]

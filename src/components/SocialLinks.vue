@@ -37,9 +37,7 @@ const socialTip = ref("通过这里联系我吧");
   border-radius: 6px;
   backdrop-filter: blur(0);
   animation: fade 0.5s;
-  transition:
-    background-color 0.3s,
-    backdrop-filter 0.3s;
+  transition: background-color 0.3s, backdrop-filter 0.3s;
   @media (max-width: 840px) {
     max-width: 100%;
     justify-content: center;
@@ -61,6 +59,8 @@ const socialTip = ref("通过这里联系我吧");
       .icon {
         margin: 0 12px;
         transition: transform 0.3s;
+        filter: drop-shadow(#fff 1000000px 0);
+        transform: translateX(-1000000px);
         &:hover {
           transform: scale(1.1);
         }
