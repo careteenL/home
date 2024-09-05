@@ -21,7 +21,8 @@
         </span>
         <!-- 站点备案 -->
         <span>
-          &amp;
+          <!-- &amp; -->
+          &nbsp;
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
             {{ siteIcp }}
           </a>
@@ -106,6 +107,9 @@ const siteUrl = computed(() => {
         display: inherit;
       }
     }
+  }
+  .hidden {
+    display: none;
   }
   &.blur {
     backdrop-filter: blur(10px);
