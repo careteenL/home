@@ -5,8 +5,13 @@
     "link": "http://blog.careteen.cn/"
   },
   {
+    "icon": "Codepen",
+    "name": "GPT",
+    "link": "http://gpt.careteen.cn/"
+  },
+  {
     "icon": "Book",
-    "name": "作品",
+    "name": "会议室预定",
     "link": "http://meeting.careteen.cn/"
   }
 ]
