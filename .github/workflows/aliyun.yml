@@ -30,7 +30,7 @@ jobs:
           SOURCE: "./"
           REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
           REMOTE_USER: "root"
-          TARGET: "/repo/github/"
+          TARGET: "/root/repo/github/"
       - name: Deploy with docker-compose
         run: |
           docker-compose down --rmi all
