@@ -29,5 +29,9 @@ jobs:
           REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
           REMOTE_USER: "root"
           TARGET: "/root/repo/github/home/"
-          SCRIPT_BEFORE: "mkdir -p /root/repo/github/home/"
-          SCRIPT_AFTER: "cd /root/repo/github/home && docker-compose down --rmi all && docker-compose up"
+          SCRIPT_BEFORE: |
+            mkdir -p /root/repo/github/home/
+          SCRIPT_AFTER: |
+            cd /root/repo/github/home
+            docker-compose down --rmi all
+            docker-compose up
