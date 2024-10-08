@@ -12,11 +12,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-      # 复制环境变量文件
       - name: Copy .env.example
         run: |
           cp .env.example .env
-      # 安装依赖 build
+          mkdir -p /root/repo/github/home/
       - name: Install and Build
         run: |
           npm install
@@ -26,12 +25,9 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
           ARGS: "-avz --delete --verbose"
-          EXCLUDE: "/node_modules/"
+          EXCLUDE: "./node_modules/"
           SOURCE: "./"
           REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
           REMOTE_USER: "root"
-          TARGET: "/root/repo/github/"
-      - name: Deploy with docker-compose
-        run: |
-          docker-compose down --rmi all
-          docker-compose up
+          TARGET: "/root/repo/github/home/"
+          SCRIPT_AFTER: "cd /root/repo/github/home && docker-compose down --rmi all && docker-compose up"
