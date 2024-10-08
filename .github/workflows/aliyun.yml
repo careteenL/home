@@ -20,7 +20,7 @@ jobs:
       - name: Copy .env.example
         run: |
           cp .env.example .env
-      # 安装依赖 build 使用 docker 启动
+      # 安装依赖 build
       - name: Install and Build
         run: |
           npm install
@@ -36,3 +36,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
           REMOTE_USER: "root"
           TARGET: "/repo/github/"
+      - name: Deploy with docker-compose
+        run: |
+          docker-compose down --rmi all
+          docker-compose up
