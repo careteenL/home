@@ -2,7 +2,7 @@
   <!-- 基本信息 -->
   <div class="message">
     <!-- Logo -->
-    <div class="logo">
+    <div class="logo" @click="aboutMe">
       <img class="logo-img" :src="siteLogo" alt="logo" />
       <div :class="{ name: true, 'text-hidden': true, long: siteUrl[0].length >= 6 }">
         <span class="bg">{{ siteUrl[0] }}</span>
@@ -34,14 +34,16 @@ import { Icon } from "@vicons/utils";
 import { QuoteLeft, QuoteRight } from "@vicons/fa";
 import { Error } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
+import { useRouter } from "vue-router";
 const store = mainStore();
+const router = useRouter();
 
 // 主页站点logo
 const siteLogo = import.meta.env.VITE_SITE_MAIN_LOGO;
 // 站点链接
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "imsyy.top".split(".");
+  if (!url) return "careteen.cn".split(".");
   // 判断协议前缀
   if (url.startsWith("http://") || url.startsWith("https://")) {
     const urlFormat = url.replace(/^(https?:\/\/)/, "");
@@ -72,6 +74,12 @@ const changeBox = () => {
   }
 };
 
+const aboutMe = () => {
+  router.push({
+    path: "/about",
+  });
+};
+
 // 监听状态变化
 watch(
   () => store.boxOpenState,
@@ -98,6 +106,10 @@ watch(
     .logo-img {
       border-radius: 50%;
       width: 120px;
+      transition: all 0.35s ease-in-out;
+      &:hover {
+        transform: rotate(360deg);
+      }
     }
     .name {
       width: 100%;
