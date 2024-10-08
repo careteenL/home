@@ -16,6 +16,14 @@ jobs:
           ref: dev
           # 需要加载内部子模块
           submodules: true
+      # 复制环境变量文件
+      - name: Copy .env.example
+        run: |
+          if (-not (Test-Path .env)) {
+            Copy-Item .env.example .env
+          } else {
+            Write-Host ".env file already exists. Skipping the copy step."
+          }
       - name: Install and Build
         run: |
           npm install
