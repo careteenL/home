@@ -22,7 +22,7 @@
     </transition>
     <div class="content">
       <!-- 可在此处自定义任意内容 -->
-      <TimeCapsule />
+      <!-- <TimeCapsule /> -->
       <MoreContent />
     </div>
   </div>
@@ -58,9 +58,7 @@ const closeShow = ref(false);
     right: 14px;
     width: 28px;
     height: 28px;
-    transition:
-      transform 0.3s,
-      opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
 
     &:hover {
       transform: scale(1.2);
