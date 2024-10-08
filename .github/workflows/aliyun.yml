@@ -1,0 +1,33 @@
+name: build and deploy aliyun
+
+on:
+  push:
+    branches: [dev, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # checkout到你的代码分支
+          ref: dev
+          # 需要加载内部子模块
+          submodules: true
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+          docker-compose down --rmi all
+          docker-compose up
+      - name: Deploy to aliyun server
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
+          ARGS: "-avz --delete"
+          SOURCE: "public"
+          REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
+          REMOTE_USER: "root"
+          TARGET: "/repo/github/"
