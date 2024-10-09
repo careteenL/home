@@ -2,7 +2,7 @@
   <div class="more-content">
     <div class="title">
       <all-application theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
-      <span>编程导航</span>
+      <span>㊙️密花园</span>
     </div>
     <div class="all-app">
       <div class="app-item" v-for="(item, index) in apps" :key="index" @click="jumpLink(item)">
@@ -18,23 +18,9 @@ import { AllApplication } from "@icon-park/vue-next";
 
 const apps = [
   {
-    title: "RSS",
-    url: "https://www.qireader.com/",
-  },
-  {
-    title: "Web技术周刊",
-    desc: "语雀-zenany",
-    url: "https://www.yuque.com/zenany/fe_weekly",
-  },
-  {
-    title: "前端周刊",
-    desc: "语雀-zhangbao",
-    url: "https://www.yuque.com/zhangbao/weekly",
-  },
-  {
-    title: "front-end-developers",
-    desc: "X-Lists",
-    url: "https://x.com/i/lists/233096513",
+    title: "Careteen's 编程秘籍",
+    desc: "收集前端周刊/程序猿面经/考公资料/英语学习/视频网站等资料",
+    url: "https://bve519i9rzo.feishu.cn/base/M88VbQpBeaY1kMsCpUGcDgWrnlh?from=from_copylink",
   },
 ];
 
@@ -69,7 +55,7 @@ const jumpLink = (item) => {
       flex-direction: column;
       align-items: center;
       height: 100px;
-      width: 200px;
+      width: 100%;
       justify-content: center;
       margin-right: 10px;
       margin-bottom: 10px;

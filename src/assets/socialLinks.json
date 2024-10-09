@@ -7,7 +7,7 @@
   },
   {
     "name": "WeChat",
-    "icon": "/images/icon/weixin.svg",
+    "icon": "/images/icon/wechat.png",
     "tip": "微信",
     "url": "http://blog.careteen.cn/wechart-qrcode.jpeg"
   },
@@ -15,7 +15,7 @@
     "name": "Twitter",
     "icon": "/images/icon/twitter.png",
     "tip": "Twitter",
-    "url": "https://x.com/careteenL"
+    "url": "https://x.com/_Careteen"
   },
   {
     "name": "Telegram",
@@ -25,20 +25,20 @@
   },
   {
     "name": "知乎",
-    "icon": "/images/icon/zhihu.svg",
+    "icon": "/images/icon/zhihu.png",
     "tip": "知乎",
     "url": "https://www.zhihu.com/people/careteen"
   },
   {
     "name": "微博",
-    "icon": "/images/icon/weibo.svg",
+    "icon": "/images/icon/weibo.png",
     "tip": "微博",
     "url": "https://weibo.com/u/3962739062"
   },
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
-    "tip": "来封 Email ~",
+    "tip": "Email",
     "url": "mailto:careteenfox@gmail.com"
   }
 ]
