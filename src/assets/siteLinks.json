@@ -2,16 +2,26 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.careteen.cn/article"
+    "link": "http://blog.careteen.cn/article"
+  },
+  {
+    "icon": "Blog",
+    "name": "作品合集",
+    "link": "http://blog.careteen.cn/production"
   },
   {
     "icon": "Codepen",
-    "name": "GPT",
+    "name": "GPT生成代码",
     "link": "http://gpt.careteen.cn"
   },
   {
+    "icon": "Codepen",
+    "name": "鲁班低代码",
+    "link": "http://luban.careteen.cn"
+  },
+  {
     "icon": "Book",
-    "name": "会议室预定",
+    "name": "预定会议室",
     "link": "http://meeting.careteen.cn"
   }
 ]
