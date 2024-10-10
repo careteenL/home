@@ -8,10 +8,23 @@ import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import "swiper/css";
 import router from "./router";
 
+import VMdPreview from "@kangc/v-md-editor/lib/preview";
+import "@kangc/v-md-editor/lib/style/preview.css";
+import githubTheme from "@kangc/v-md-editor/lib/theme/github.js";
+import "@kangc/v-md-editor/lib/theme/style/github.css";
+
+// highlightjs
+import hljs from "highlight.js";
+
+VMdPreview.use(githubTheme, {
+  Hljs: hljs,
+});
+
 const app = createApp(App);
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
+app.use(VMdPreview);
 app.use(pinia);
 app.use(router);
 app.mount("#app");

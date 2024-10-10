@@ -2,12 +2,12 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "http://blog.careteen.cn/article"
+    "link": "/article"
   },
   {
     "icon": "Blog",
     "name": "作品合集",
-    "link": "http://blog.careteen.cn/production"
+    "link": "/production"
   },
   {
     "icon": "Codepen",
