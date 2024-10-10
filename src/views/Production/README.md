@@ -8,7 +8,7 @@
 
 历史
 
-- [@careteen/cli](https://github.com/careteenL/cli) | 🚀 脚手架 | 已提供模板项目第三方库、vue 后台系统、vue 多页系统、mpvue 小程序 toB、react 后台系统 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/cli) |
+- [@careteen/cli](https://github.com/careteenL/cli) | 🚀 脚手架 | 已提供模板项目第三方库、vue 后台系统、vue 多页系统、mpvue 小程序 toB、react 后台系统 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/cli)
 - [@careteen/react](https://github.com/careteenL/react) | 📚 轮子 | 学习并仿写 react | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/react)
 - [@careteen/webpack](https://github.com/careteenL/webpack) | 📚 轮子 | 学习并仿写 webpack | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/webpack)
 - [@careteen/rollup](https://github.com/careteenL/rollup) | 📚 轮子 | 学习并仿写 rollup | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/rollup)
