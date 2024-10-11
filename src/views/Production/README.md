@@ -8,10 +8,14 @@
 
 历史
 
-- [@careteen/cli](https://github.com/careteenL/cli) | 🚀 脚手架 | 已提供模板项目第三方库、vue 后台系统、vue 多页系统、mpvue 小程序 toB、react 后台系统 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/cli)
+- [@careteen/cli](https://github.com/careteenL/cli) | 🚀 脚手架 | 已提供模板项目第三方库、vue 后台系统、vue 多页系统、mpvue/uniapp 小程序 toB、react 后台系统 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/cli)
+- [@careteen/micro-fe](https://github.com/careteenL/micro-fe) | 📚 轮子 | 学习并仿写 systemjs、single-spa、qiankun | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/micro-fe)
+- [webpack-hmr](https://github.com/careteenL/webpack-hmr) | 📚 轮子 | 学习并仿写 webpack 热更新 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/webpack-hmr)
 - [@careteen/react](https://github.com/careteenL/react) | 📚 轮子 | 学习并仿写 react | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/react)
 - [@careteen/webpack](https://github.com/careteenL/webpack) | 📚 轮子 | 学习并仿写 webpack | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/webpack)
+- [data-structure_algorithm](https://github.com/careteenL/data-structure_algorithm) | 📚 轮子 | JavaScript 实现常见数据结构和算法 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/data-structure_algorithm)
 - [@careteen/rollup](https://github.com/careteenL/rollup) | 📚 轮子 | 学习并仿写 rollup | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/rollup)
+- [create-react-app](https://github.com/careteenL/create-react-app) | 📚 轮子 | 学习并仿写 create-react-app | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/create-react-app)
 - [@careteen/koa](https://github.com/careteenL/koa) | 📚 轮子 | 学习并仿写 koa | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/koa)
 - [@careteen/event-emitter](https://github.com/careteenL/event-emitter) | ⚡️ 类库 | 一个精简的发布订阅模式，支持先订阅后发布 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/event-emitter)
 - [@careteen/type](https://github.com/careteenL/type) | ⚡️ 类库 | JavaScript 类型检查，弥补 typeof 不足 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/type)
@@ -19,6 +23,7 @@
 - [@careteen/lan-vue](https://github.com/careteenL/lan-vue) | 💄 组件库 | Vue-已提供组件`Cascader`、`Table`... | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/lan-vue)
 - [@careteen/lan-react](https://github.com/careteenL/lan-react) | 💄 组件库 | React-已提供组件`Tree`... | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/lan-react)
 - [@careteen/lan](https://github.com/careteenL/lan) | 💄 组件库 | React-已提供`Typography/Button/Avatar/Radio/Carousel`... | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/lan)
+- [@careteen/uniapp-components](https://github.com/careteenL/uniapp-components) | 💄 组件库 | uniapp-已提供`virtual-list`... | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/uniapp-components)
 - [@careteen/jslib-cli](https://github.com/careteenL/jslib-cli) | 🚀 脚手架 | JavaScript 第三方库脚手架 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/jslib-cli)
 - [@careteen/match](https://github.com/careteenL/match) | ⚡️ 类库 | 对象/数组属性映射，主要解决前后端并行开发或前端先行开发带来的命名不统一问题 | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/match)
 - [@careteen/is](https://github.com/careteenL/is) | ⚡️ 类库 | 提供一系列判断函数，基于 @careteen/type | ![GitHub Repo stars](https://img.shields.io/github/stars/careteenL/is)
